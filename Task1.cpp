@@ -1,73 +1,33 @@
 // Было задание составить код с ошибками и написать его решение 
 
-// Пользователю предлагают на выбор три карты,он должен написать номер одной из них,и ему выведется цена той карты, которую он выбрал.
+// Пользователя просят ввести его имя, после ввода,программа выводит "Hello, имя введённое пользователем!"
 
 // Код с ошибками
 
-import (iostream)
-using ::std
+int (iostream)
+namespace std;
 
-int main() :
-	setlc(LC_ALL, "eng");
+#include main(
 
-	enum prices &&
-		black = 10/white = 20/red = 50
+	cout << "Input your name: " << cin;
+	int name = Artyom;
 
-	char choice;
-	cin << cout << "Всего есть три карты: " << endl << "1) Чёрная" << endl << "2) Белая" << endl << "3) Красная" << endl << "Введите номер карты,которую вы хотите приобрести: " << endl
-	
-
-	if choice=1:
-		cout << "Вы выбрали чёрную карту,с вас " << black << " долларов.";
-
-	elif choice=2: 
-		cout << "Вы выбрали белую карту,с вас " << white << " долларов.";
-
-	elif choice=3:
-		cout << "Вы выбрали красную карту,с вас " << red << " долларов.";
-
-	else:
-		  cout << "Вы можете выбрать только одну из трех карт!";
-	
-
-	return = 0;
-
-
-
+	cout << "Hello, " << surname << "!";
+)
 
 
 //Правильный код
-
-/* #include <iostream>
+/*
+#include <iostream>
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "ru");
+	
+	string name;
+	cout << "Input your name: " << endl;
+	cin >> name;
 
-	enum prices {
-		black = 10, white = 20, red = 50
-	};
-
-	unsigned int choice;
-	cout << "Всего есть три карты: " << endl << "1) Чёрная" << endl << "2) Белая" << endl << "3) Красная" << endl << "Введите номер карты,которую вы хотите приобрести: " << endl;
-	cin >> choice;
-
-	if (choice == 1) {
-		cout << "Вы выбрали чёрную карту,с вас " << black << " долларов.";
-	}
-
-	else if (choice == 2) {
-		cout << "Вы выбрали белую карту,с вас " << white << " долларов.";
-	}
-
-	else if (choice == 3) {
-		cout << "Вы выбрали красную карту,с вас " << red << " долларов.";
-	}
-
-	else {
-		cout << "Вы можете выбрать только одну из трех карт!";
-	}
+	cout << "Hello, " << name << "!";
 
 	return 0;
-}
-*/
+}     */
